@@ -1,0 +1,13 @@
+@layer components {
+  .input-field {
+    @apply rounded-md border-gray-300 shadow-sm focus:border-primary-500 focus:ring-primary-500;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200;
+  }
+}
+
+@layer utilities {
+  /* Add your custom utilities here */
+}
